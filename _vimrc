@@ -11,8 +11,8 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 Plug 'leafgarland/typescript-vim'
 Plug 'lyuts/vim-rtags'
-Plug 'https://github.com/kien/ctrlp.vim.git'
-Plug 'https://github.com/ervandew/supertab.git'
+Plug 'https://git::@github.com/kien/ctrlp.vim.git'
+Plug 'https://git::@github.com/ervandew/supertab.git'
 Plug 'mattn/emmet-vim'
 Plug 'pprovost/vim-ps1'
 call plug#end()
@@ -23,8 +23,8 @@ set laststatus=2
 set noerrorbells
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set smartindent
-:set number relativenumber
-:set nu rnu
+set number relativenumber
+set nu rnu
 set smartcase
 set noswapfile
 set hlsearch
