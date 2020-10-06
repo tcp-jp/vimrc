@@ -1,6 +1,7 @@
 syntax on
 set encoding=utf-8
 
+command! W :w
 
 call plug#begin('~\vimfiles\plugged')
 
@@ -26,6 +27,9 @@ set smartindent
 :set nu rnu
 set smartcase
 set noswapfile
+set hlsearch
+set ignorecase
+set smartcase
 set incsearch
 let g:lightline = {       
             \ 'colorscheme': 'wombat',       
@@ -43,4 +47,9 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+
+noremap j gj
+noremap k gk
+
+
 
