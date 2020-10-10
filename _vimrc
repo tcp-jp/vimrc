@@ -4,15 +4,10 @@ set encoding=utf-8
 command! W :w
 
 call plug#begin('~\vimfiles\plugged')
-
 Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
-Plug 'jremmen/vim-ripgrep'
-Plug 'tpope/vim-fugitive'
-Plug 'leafgarland/typescript-vim'
-Plug 'lyuts/vim-rtags'
-Plug 'https://git::@github.com/kien/ctrlp.vim.git'
-Plug 'https://git::@github.com/ervandew/supertab.git'
+Plug 'https://git@github.com/kien/ctrlp.vim.git'
+Plug 'https://git@github.com/ervandew/supertab.git'
 Plug 'mattn/emmet-vim'
 Plug 'pprovost/vim-ps1'
 call plug#end()
